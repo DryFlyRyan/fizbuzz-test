@@ -3,7 +3,7 @@ module.exports = {
 		var start = (s || 0);
 		var step = (inc || 1);
 		var arr = [];
-		for (var i = start; i <= f; i + step) {
+		for (var i = start; i <= f; i += step) {
 			if (i % 3 === 0 && i % 5 === 0 && i !== 0) {
 				arr.push("FizzBuzz");
 			} else if (i % 3 === 0 && i !== 0) {
